@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  remote_user: root
+  vars:
+    docker_registries:
+      - url: index.docker.io
+        username: XXX
+        password: ZZZ
+  roles:
+    - docker-login-ansible-role

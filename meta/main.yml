@@ -1,0 +1,17 @@
+galaxy_info:
+  author: AdopteUnOps
+  description: Performs docker login
+  license: Apache
+
+  min_ansible_version: 2.2
+
+  platforms:
+  - name: GenericLinux
+    versions:
+    - all
+    - any
+
+  galaxy_tags:
+  - docker
+
+dependencies: []
