@@ -6,6 +6,7 @@ Role Variables
 --------------
 
 ```
+dockerpy_version: 1.8.0
 docker_registries: []
 ```
 
