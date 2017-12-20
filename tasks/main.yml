@@ -2,6 +2,6 @@
 - docker_login:
     username: "{{item.username}}"
     password: "{{item.password}}"
-    email: "{{item.email | default("")}}"
+    email: "{{item.email | default(omit)}}"
     registry_url: "{{item.url}}"
   with_items: "{{docker_registries}}"
