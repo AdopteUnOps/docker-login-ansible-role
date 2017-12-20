@@ -17,10 +17,11 @@ docker_registries:
   - url: index.docker.io
     username: XXX
     password: ZZZ
-  # if you have the ca certificate
+  # if your registry require email
   - url: my.custom.registry
     username: XXX
     password: ZZZ
+    email: something@yourcompany.com
 ```
 License
 -------
