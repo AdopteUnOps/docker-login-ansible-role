@@ -6,7 +6,8 @@ Role Variables
 --------------
 
 ```
-dockerpy_version: 1.8.0
+ansible_python_interpreter: "/usr/bin/python3"
+dockerpy_version: 4.2.0
 docker_registries: []
 ```
 
